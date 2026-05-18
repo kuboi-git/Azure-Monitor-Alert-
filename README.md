@@ -1,9 +1,9 @@
 # Azure-Monitor-Aler
 
 # 1. 概要
-Azure VMに対して、Azure Monitorを利用した監視設定およびAlert Ruleの作成を実施し、CPU使用率が設定した基準値を超えた際にアラートが発生し、
+Azure VMに対して、Azure Monitorを利用した監視設定およびAlert Ruleの作成を実施し、
 
-Action Groupによってメール通知されることを確認しました。
+CPU使用率が設定した基準値を超えた際にアラートが発生し、Action Groupによってメール通知されることを確認しました。
 
 ---
 
