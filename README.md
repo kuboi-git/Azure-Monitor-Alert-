@@ -63,9 +63,7 @@ Email送信
 
 Azure Monitor にて CPU使用率上昇を確認。
 
----
-
-### CPU Load Test
+#### CPU Load Test
 
 ```bash
 yes > /dev/null &
