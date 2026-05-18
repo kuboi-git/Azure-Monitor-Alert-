@@ -84,6 +84,7 @@ CPU使用率閾値超過時に Alert Rule 発火を確認。
 ### Email Notification
 
 Action Group によりメール通知されることを確認。
+
 <img width="170" height="349" alt="alert_mail" src="https://github.com/user-attachments/assets/43119a7d-17e0-4ae3-8bd4-9c8e5a212fe8" />
 
 ---
