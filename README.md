@@ -58,16 +58,23 @@ Email送信
 
 ---
 
-# 動作確認
+# Verification
+
 ## CPU Metrics
+
 Azure Monitor にて CPU使用率上昇を確認。
+
 ---
+
 ## CPU Load Test
+
 ```bash
 yes > /dev/null &
 yes > /dev/null &
 ```
+
 ---
+
 ## Alert Fired
 
 CPU使用率閾値超過時に Alert Rule 発火を確認。
