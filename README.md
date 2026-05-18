@@ -1,13 +1,13 @@
 # Azure-Monitor-Aler
 
-# 1.概要
+# 1. 概要
 Azure VMに対して、Azure Monitorを利用した監視設定とAlert Ruleの作成を実施した学習用Repositoryです。
 
 CPU使用率を監視し、設定した基準値を超えるとアラート表示され、Action Groupによりメール通知されることを確認しました。
 
 ---
 
-# 2.構成図
+# 2. 構成図
 ```text
 Internet
    ↓
@@ -26,7 +26,7 @@ Email送信
 
 ---
 
-# 3.使用サービス
+# 3. 使用サービス
 | Service | Purpose |
 |---|---|
 | Resource Group | リソース管理 |
@@ -41,7 +41,7 @@ Email送信
 
 ---
 
-# 4.作成順序
+# 4. 作成順序
 1. Resource Group 作成
 2. Virtual Network 作成
 3. Subnet 作成
@@ -57,7 +57,7 @@ Email送信
 
 ---
 
-# 5.動作確認
+# 5. 動作確認
 
 ### CPU Metrics
 
@@ -96,7 +96,7 @@ pkill yes
 
 ---
 
-# 6.苦労したこと
+# 6. 苦労したこと
 ## Percentage CPU が見つからなかった
 
 ### Cause
@@ -127,7 +127,7 @@ Azure Monitor の通知反映遅延。
 
 ---
 
-# 7.学んだこと
+# 7. 学んだこと
 - Azure Monitor の基本
 - Metrics の確認方法
 - Alert Rule の作成
@@ -140,7 +140,7 @@ Azure Monitor の通知反映遅延。
 
 ---
 
-# 8.今後やりたいこと
+# 8. 今後やりたいこと
 
 - Log Analytics
 - Azure Dashboard
