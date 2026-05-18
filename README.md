@@ -21,7 +21,7 @@ Alert Rule
    ↓
 Action Group
    ↓
-Email送信
+Email通知
 ```
 
 ---
@@ -59,11 +59,11 @@ Email送信
 
 # 5. 動作確認
 
-### CPU Metrics
+### CPUメトリクス
 
-Azure Monitor にて CPU使用率上昇を確認。
+Azure MonitorにてCPU使用率上昇を確認。
 
-#### CPU Load Test
+#### CPU負荷テスト
 
 ```bash
 yes > /dev/null &
@@ -72,22 +72,22 @@ yes > /dev/null &
 
 ---
 
-### Alert Fired
+### Alert発生
 
-CPU使用率閾値超過時に Alert Rule 発火を確認。
+CPU使用率が基準値（今回は平均5％）以上の時にalert Ruleを表示。
 <img width="857" height="332" alt="alert" src="https://github.com/user-attachments/assets/04ed4ab0-4be4-49a8-a825-794cd93b9856" />
 
 ---
 
-### Email Notification
+### メール通知
 
-Action Group によりメール通知されることを確認。
+Action Groupによりメール通知されることを確認。
 
 <img width="170" height="349" alt="alert_mail" src="https://github.com/user-attachments/assets/43119a7d-17e0-4ae3-8bd4-9c8e5a212fe8" />
 
 ---
 
-### Recovery
+### CPU負荷回復
 
 CPU負荷停止後、CPU使用率低下を確認。
 
