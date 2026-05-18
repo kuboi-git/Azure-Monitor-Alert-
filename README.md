@@ -77,6 +77,10 @@ yes > /dev/null &
 ### Alert Fired
 
 CPU使用率閾値超過時に Alert Rule 発火を確認。
+<img width="835" height="385" alt="alert_after" src="https://github.com/user-attachments/assets/2649c3c9-6f00-4e1c-9877-67183383a8b5" />
+<img width="835" height="385" alt="alert_after" src="https://github.com/user-attachments/assets/556c7c1b-5c58-47ae-a76a-7126b884b54a" />
+<img width="525" height="373" alt="alert_mail" src="https://github.com/user-attachments/assets/72379679-761f-4fe8-a052-c49183ad259d" />
+<img width="857" height="332" alt="alert" src="https://github.com/user-attachments/assets/ec481d30-c97e-4ca9-8a2c-aa55a3e39047" />
 
 ---
 
@@ -93,6 +97,8 @@ CPU負荷停止後、CPU使用率低下を確認。
 ```bash
 pkill yes
 ```
+<img width="835" height="385" alt="alert_after" src="https://github.com/user-attachments/assets/3aa05515-f525-4a4a-9283-422667b06cda" />
+
 
 ---
 
