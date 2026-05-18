@@ -2,11 +2,8 @@
 
 
 ## 概要
-Azure VM に対して Azure Monitor を利用した監視設定と  
-Alert Rule の作成を実施した学習用Repositoryです。
-
-CPU使用率を監視し、閾値超過時にアラートが発火すること、  
-Action Group によりメール通知されることを確認しました。
+Azure VMに対して、Azure Monitorを利用した監視設定とAlert Ruleの作成を実施した学習用Repositoryです。
+CPU使用率を監視し、設定した基準値を超えるとアラート表示され、Action Groupによりメール通知されることを確認しました。
 
 ---
 
