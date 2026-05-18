@@ -22,7 +22,7 @@ Alert Rule
    ↓
 Action Group
    ↓
-Email Notification
+Email送信
 ```
 
 ---
