@@ -60,7 +60,7 @@ Email送信
 
 # Verification
 
-## CPU Metrics
+### CPU Metrics
 
 Azure Monitor にて CPU使用率上昇を確認。
 
