@@ -66,7 +66,7 @@ Azure Monitor にて CPU使用率上昇を確認。
 
 ---
 
-## CPU Load Test
+### CPU Load Test
 
 ```bash
 yes > /dev/null &
@@ -75,19 +75,19 @@ yes > /dev/null &
 
 ---
 
-## Alert Fired
+### Alert Fired
 
 CPU使用率閾値超過時に Alert Rule 発火を確認。
 
 ---
 
-## Email Notification
+### Email Notification
 
 Action Group によりメール通知されることを確認。
 
 ---
 
-## Recovery
+### Recovery
 
 CPU負荷停止後、CPU使用率低下を確認。
 
