@@ -1,27 +1,37 @@
-# Azure-Monitor-Aler
+# Azure-Monitor-Alert
 
 # 1. 概要
-Azure VMに対して、Azure Monitorを利用した監視設定およびAlert Ruleの作成を実施し、
+Azure VMに対して、Azure Monitorを利用した監視設定およびAlert Ruleの作成を実施しました。
 
 CPU使用率が設定した基準値を超えた際にアラートが発生し、Action Groupによってメール通知されることを確認しました。
 
 ---
 
 # 2. 構成図
+
 ```text
-Internet
-   ↓
-vm-monitor-test
-   ↓
-Azure Monitor
-   ↓
-Metrics
-   ↓
-Alert Rule
-   ↓
-Action Group
-   ↓
-Email通知
+Resource Group
+└─ rg-monitor-test
+    │
+    └─ Virtual Network
+       └─ vnet-monitor-test (10.0.0.0/16)
+          │
+          └─ Subnet
+             └─ subnet-monitor-test (10.0.10.0/24)
+                │
+                ├─ nsg-monitor
+                │  └─ allow-ssh (22)
+                │
+                └─ Ubuntu VM
+                   └─ vm-monitor-test
+                      │
+                      ├─ Azure Monitor
+                      │   └─ Metrics
+                      │       └─ Percentage CPU
+                      │
+                      └─ Alert Rule
+                          └─ Action Group
+                              └─ Email Notification
 ```
 
 ---
