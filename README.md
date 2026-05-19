@@ -102,30 +102,30 @@ pkill yes
 # 6. 苦労したこと
 ## Percentage CPU が見つからなかった
 
-### Cause
+### 原因
 監視対象リソースを誤って選択。
 
-### Resolution
+### 解決方法
 VMリソースを選択し解決。
 
 ---
 
 ## メール通知が届かなかった
 
-### Cause
+### 原因
 Azure Monitor の通知反映遅延。
 
-### Resolution
+### 解決方法
 数分待機し解決。
 
 ---
 
 ## CPU使用率が下がらなかった
 
-### Cause
+### 原因
 バックグラウンドプロセスが残存。
 
-### Resolution
+### 解決方法
 `pkill yes` を実施し解決。
 
 ---
