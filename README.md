@@ -27,7 +27,7 @@ Email通知
 ---
 
 # 3. 使用サービス
-| Service | Purpose |
+| サービス | 用途 |
 |---|---|
 | Resource Group | リソース管理 |
 | Virtual Network | 仮想ネットワーク |
