@@ -58,12 +58,10 @@ Resource Group
 4. NSG 作成・SSH許可
 5. Ubuntu VM 作成
 6. SSH 接続
-7. Azure Monitor 確認
-8. Metrics 確認
-9. CPU負荷テスト
-10. Alert Rule 作成
-11. Action Group 作成
-12. メール通知確認
+7. VMの「メトリック」で Percentage CPU を表示
+8. アクション グループを作成し、メール通知先を登録
+9. CPUアラート ルールを作成し、アクション グループを紐づけ
+10. VMで負荷をかけ、アラートの発報とメールの受信を確認
 
 ---
 
